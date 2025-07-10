@@ -49,7 +49,7 @@ nav {
   font-size: 65px;
   font-weight: 700;
   margin-bottom: 37px;
-  /* line-height: auto; */
+  line-height: auto;
 }
 .banner-description {
   width: 905px;
@@ -58,4 +58,33 @@ nav {
   align-items: center;
   text-align: center;
   margin-bottom: 152px;
+}
+.action {
+  margin: 116px 159px 116px 141px;
+  display: flex;
+  gap: 130px;
+  align-items: center;
+  width: 1140px;
+}
+.action-info {
+  text-align: left;
+  width: 517px;
+}
+.title {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: auto;
+  margin-bottom: 23px;
+}
+.subtitle {
+  color: #252432;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+.action-image {
+  border-radius: 48px;
+  height: 328px;
 }
