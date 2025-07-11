@@ -129,3 +129,56 @@ main {
 .productive-container {
   margin: 50px 80px;
 }
+.subscribe {
+  max-width: 1140px;
+  margin: 93px auto 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.form-description {
+  font-size: 90px;
+  font-weight: 700;
+  color: #000000;
+  width: 528px;
+  text-align: left;
+}
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  max-width: 500px;
+  width: 100%;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-button {
+  width: 100%;
+}
+.get-in-touch-btn {
+  background-color: #4e47ff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  padding: 19px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+textarea {
+  color: rgba(0, 0, 0, 0.5);
+  resize: none;
+}
