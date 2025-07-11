@@ -90,7 +90,7 @@ main {
   margin-bottom: 23px;
 }
 .action-subtitle {
-  color: #252432;
+  color: rgba(37, 36, 50, 0.5);
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -105,6 +105,7 @@ main {
   font-weight: 700;
   color: #252432;
   margin-bottom: 40px;
+  text-align: center;
 }
 .productive-info {
   display: flex;
@@ -195,6 +196,12 @@ input,
 textarea::placeholder {
   font-family: "Inter", sans-serif;
 }
+
+/* Footer start */
+.footer {
+  background-color: #ffffff;
+  height: 428px;
+}
 .brand-logo {
   font-size: 100px;
   font-weight: 900;
@@ -238,6 +245,7 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 103px auto;
 }
 .card-title {
   font-family: "Inter", sans-serif;
@@ -278,12 +286,16 @@ textarea::placeholder {
   margin-bottom: 24px;
 }
 .card {
-  border: 2px solid bisque;
+  border: 1px solid rgba(179, 179, 179, 0.3);
   max-width: 367px;
   height: auto;
+  border-radius: 14px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 20px rgba(77, 71, 255, 0.148),
+    0 2px 6px rgba(0, 0, 0, 0.126);
 }
 .card-info {
   margin: 24px;
@@ -292,4 +304,12 @@ textarea::placeholder {
   margin-top: 24px;
   margin-left: 24px;
 }
-.card-reviewer;
+.user-feedback {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 137px;
+}
+/* Button effects */
+.effect:hover {
+  background-color: #7b0dd6f0;
+}
