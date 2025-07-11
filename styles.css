@@ -148,6 +148,12 @@ main {
   width: 528px;
   text-align: left;
 }
+label {
+  font-family: ;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
 .form-elements {
   display: flex;
   flex-direction: column;
@@ -177,7 +183,6 @@ main {
 }
 input,
 textarea {
-  width: 100%;
   padding: 20px 32px;
   border-radius: 10px;
   border: none;
